@@ -9,7 +9,7 @@ Aggiungi al tuo `/etc/pacman.conf`:
 ```ini
 [valhalla]
 SigLevel = Optional TrustAll
-Server = http://c0dic3.team-bit.eu/david/Valhalla/-/raw/main/x86_64
+Server = https://raw.githubusercontent.com/Midgard-CyberSecurity/Valhalla/main/x86_64
 ```
 
 Aggiorna e installa:
