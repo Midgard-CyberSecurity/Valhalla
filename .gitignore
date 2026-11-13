@@ -1,0 +1,39 @@
+# === File di gestione LOCALE (non pubblicati) ===
+scripts/
+docs/
+pkgbuilds/
+CONTRIBUTING.md
+QUICK-START.md
+MAINTAINER.md
+.gitlab-ci.yml
+
+# === Pubblicato solo x86_64/ e README.md ===
+
+# Build artifacts
+*.tar.gz
+*.tar.xz
+*.log
+*.sig
+src/
+pkg/
+
+# Pacman cache (tranne quelli in x86_64/)
+*.db
+*.db.tar.gz
+*.files
+*.files.tar.gz
+!x86_64/*.db.tar.gz
+!x86_64/*.files.tar.gz
+
+# Ma mantieni i pacchetti compilati
+!x86_64/*.pkg.tar.zst
+
+# Temporary files
+*~
+*.swp
+*.swo
+.*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
