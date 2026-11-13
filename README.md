@@ -86,10 +86,10 @@ git push
 └── pkgbuilds/                  # PKGBUILD (locale)
 ```
 
-## 📚 Risorse
+## 📚 Documentazione
 
+- **[MAINTAINER.md](./MAINTAINER.md)** - Guida completa per gestire la repository (solo locale)
 - [Arch Wiki - Custom Local Repository](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Custom_local_repository)
-- [Documentazione completa](./MAINTAINER.md) (solo locale)
 
 ## 📄 Licenza
 
